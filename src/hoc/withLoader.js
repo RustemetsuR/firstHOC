@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState } from 'react';
 import Spinner from '../components/UI/Spinner/Spinner';
 
 const withLoader = (WrappedComponent, axios) => {
