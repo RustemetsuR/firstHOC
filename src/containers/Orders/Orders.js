@@ -16,7 +16,6 @@ const Orders = () => {
             });
 
             setOrders(fetchedResponse);
-            console.log(fetchedResponse);
         }
 
         fetchData();
